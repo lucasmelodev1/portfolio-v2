@@ -21,7 +21,7 @@ body {
     margin-top: -60px;
     background-color: #cccccc;
     opacity: 1;
-    background-image: radial-gradient(#000000 0.75px, #cccccc 0.75px);
+    background-image: radial-gradient(#212121 0.75px, #cccccc 0.75px);
     background-size: 15px 15px;
     font-family: 'Barlow Condensed', sans-serif;
     display: flex;
@@ -165,6 +165,10 @@ h3 {
 }
 
 @media screen and (max-width: 450px) {
+    body {
+        background-size: 11px 11px;
+        background-image: radial-gradient(#404040 0.75px, #cccccc 0.75px);
+    }
     .header {
         display: none;
     }
@@ -175,7 +179,7 @@ h3 {
         font-size: 60px;
     }
     p {
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 }
 
