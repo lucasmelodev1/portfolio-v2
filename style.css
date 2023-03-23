@@ -171,6 +171,9 @@ h4 {
     height: 300px;
     margin: 10px 0;
   }
+  .projects-container {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -189,6 +192,12 @@ h4 {
   }
   p {
     font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .projects-image {
+    height: 300px !important;
   }
 }
 
@@ -230,7 +239,22 @@ h4 {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  gap: 50px;
   width: 100%;
+  padding: 50px;
+}
+
+hr {
+  width: 200px;
+  height: 1px;
+  background-color: black;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .projects img {
   height: 500px;
